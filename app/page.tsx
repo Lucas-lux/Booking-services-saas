@@ -1,6 +1,7 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { auth } from '@clerk/nextjs';
+// app/page.tsx
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { auth } from "@clerk/nextjs";
 
 export default async function Home() {
   const { userId } = auth();
